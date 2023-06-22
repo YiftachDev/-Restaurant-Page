@@ -1,6 +1,6 @@
 import home from "./Home";
 
-const flow = (function () {
+const flow = (() => {
   const defaultContent = `<div class="navbar">
     <a href="#" class="hover-underline-animation">Home</a>
     <a href="#" class="hover-underline-animation">Menu</a>
@@ -16,6 +16,4 @@ const flow = (function () {
   function resetContent() {
     content.innerHTML = defaultContent;
   }
-
-  window.onload = init;
 })();
