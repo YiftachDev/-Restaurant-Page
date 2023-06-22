@@ -1,5 +1,5 @@
 export default function home(content) {
-  content.innerHtml += `<div class="container">
+  content.innerHTML += `<div class="container">
     <h1>Pizza de la Kizza</h1>
     <div class="section">
         <h2>About Us</h2>
